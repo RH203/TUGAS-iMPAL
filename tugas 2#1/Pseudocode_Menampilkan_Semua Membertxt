@@ -1,0 +1,7 @@
+Start Program
+Initialize Database Connection: Connect to the database. If the connection fails, display an error message and terminate the program.
+Retrieve Data: Define a SQL query to select all members from the "members" table. Execute the SQL query and store the result set.
+Check Data: If the result set is empty, display a message: "No members found."
+Display Members: Loop through each record in the result set. For each member, retrieve name and profile_image_path, then display the name and the profile image using the profile_image_path.
+Close Database Connection: Close the connection to the database.
+End Program

@@ -1,0 +1,7 @@
+Start Program
+Initialize Database Connection: Connect to the database. If the connection fails, display an error message and terminate the program.
+Retrieve Profile Data: Define a SQL query to select name, profile_image_path, id, division, year, program, attendance, points, projects, whatsapp, email, and github from the "members" table. Execute the SQL query and store the result set.
+Check Profile Data: If the result set is empty, display a message: "No profile data found."
+Display Profile Data: Loop through each record in the result set. For each record, retrieve name, profile_image_path, id, division, year, program, attendance, points, projects, whatsapp, email, and github. Then display the name and the profile image using profile_image_path, along with the other profile information.
+Close Database Connection: Close the connection to the database.
+End Program

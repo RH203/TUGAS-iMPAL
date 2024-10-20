@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #b4b4b4;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  min-width: 30em;
+}
+
+section .container {
+  padding: 30px;
+  min-width: 30em;
+  background-color: white;
+  border-radius: 20px;
+}
+
+section .container ol {
+  margin-left: 30px;
+}
+
+section .container p,
+section .container ol li {
+  font-size: 1.5rem;
+}
+
+section .container #input {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+section .container #input:focus {
+  outline: none;
+}
+
+section .container .button-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 2;
+}
+
+section .container .button-action button {
+  height: 50px;
+  width: 50%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background: none;
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+section .container .button-action span {
+  font-size: 1.2rem;
+  color: #b4b4b4;
+}
+
+section .container .button-action button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 22pt;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
